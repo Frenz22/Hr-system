@@ -1,0 +1,48 @@
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# Installed dependencies
+**/node_modules/
+
+# Generated frontend and build output
+/client/dist/
+**/build/
+**/coverage/
+
+# Runtime uploads and local data
+/server/uploads/
+*.dump
+*.backup
+*.bak
+*.pgdump
+*.sql.gz
+*.sqlite
+*.sqlite3
+
+# Logs, caches, and temporary files
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+.cache/
+.vite/
+.eslintcache
+*.tmp
+*.temp
+*.swp
+*~
+test-results/
+playwright-report/
+
+# Local editor and operating system files
+CLAUDE.md
+.idea/
+*.code-workspace
+.vscode/*.log
+.DS_Store
+Thumbs.db
+Desktop.ini
+._*

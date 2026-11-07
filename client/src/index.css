@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+:root {
+  --primary: #4f46e5;
+  --primary-foreground: #ffffff;
+  --secondary: #f8fafc;
+  --secondary-foreground: #0f172a;
+  --accent: #f1f5f9;
+  --accent-foreground: #475569;
+  --muted: #f8fafc;
+  --muted-foreground: #64748b;
+  --border: #e2e8f0;
+  --background: #f8fafc;
+}
+
+body {
+  @apply bg-slate-50 text-slate-900 antialiased;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+}
